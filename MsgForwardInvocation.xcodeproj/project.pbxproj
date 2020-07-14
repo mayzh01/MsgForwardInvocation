@@ -14,6 +14,9 @@
 		0B0F213024BDD169007F1A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F212F24BDD169007F1A1E /* main.m */; };
 		0B0F213B24BDD169007F1A1E /* MsgForwardInvocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F213A24BDD169007F1A1E /* MsgForwardInvocationTests.m */; };
 		0B0F214624BDD169007F1A1E /* MsgForwardInvocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F214524BDD169007F1A1E /* MsgForwardInvocationUITests.m */; };
+		0B0F215724BDD221007F1A1E /* TestClsMissingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F215624BDD221007F1A1E /* TestClsMissingMethod.m */; };
+		0B0F215A24BDD41B007F1A1E /* CatchAllMissingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F215924BDD41B007F1A1E /* CatchAllMissingMethod.m */; };
+		0B0F215D24BDE3D7007F1A1E /* BaseMissingMethodCls.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F215C24BDE3D7007F1A1E /* BaseMissingMethodCls.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		0B0F214124BDD169007F1A1E /* MsgForwardInvocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MsgForwardInvocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0F214524BDD169007F1A1E /* MsgForwardInvocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgForwardInvocationUITests.m; sourceTree = "<group>"; };
 		0B0F214724BDD169007F1A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0F215524BDD221007F1A1E /* TestClsMissingMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClsMissingMethod.h; sourceTree = "<group>"; };
+		0B0F215624BDD221007F1A1E /* TestClsMissingMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClsMissingMethod.m; sourceTree = "<group>"; };
+		0B0F215824BDD41B007F1A1E /* CatchAllMissingMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatchAllMissingMethod.h; sourceTree = "<group>"; };
+		0B0F215924BDD41B007F1A1E /* CatchAllMissingMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatchAllMissingMethod.m; sourceTree = "<group>"; };
+		0B0F215B24BDE3D7007F1A1E /* BaseMissingMethodCls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseMissingMethodCls.h; sourceTree = "<group>"; };
+		0B0F215C24BDE3D7007F1A1E /* BaseMissingMethodCls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMissingMethodCls.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,7 @@
 		0B0F212224BDD165007F1A1E /* MsgForwardInvocation */ = {
 			isa = PBXGroup;
 			children = (
+				0B0F215424BDD189007F1A1E /* MsgForward */,
 				0B0F212324BDD165007F1A1E /* AppDelegate.h */,
 				0B0F212424BDD165007F1A1E /* AppDelegate.m */,
 				0B0F212624BDD165007F1A1E /* ViewController.h */,
@@ -129,6 +139,19 @@
 				0B0F214724BDD169007F1A1E /* Info.plist */,
 			);
 			path = MsgForwardInvocationUITests;
+			sourceTree = "<group>";
+		};
+		0B0F215424BDD189007F1A1E /* MsgForward */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F215524BDD221007F1A1E /* TestClsMissingMethod.h */,
+				0B0F215624BDD221007F1A1E /* TestClsMissingMethod.m */,
+				0B0F215B24BDE3D7007F1A1E /* BaseMissingMethodCls.h */,
+				0B0F215C24BDE3D7007F1A1E /* BaseMissingMethodCls.m */,
+				0B0F215824BDD41B007F1A1E /* CatchAllMissingMethod.h */,
+				0B0F215924BDD41B007F1A1E /* CatchAllMissingMethod.m */,
+			);
+			path = MsgForward;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0F212824BDD165007F1A1E /* ViewController.m in Sources */,
+				0B0F215D24BDE3D7007F1A1E /* BaseMissingMethodCls.m in Sources */,
 				0B0F213024BDD169007F1A1E /* main.m in Sources */,
+				0B0F215724BDD221007F1A1E /* TestClsMissingMethod.m in Sources */,
+				0B0F215A24BDD41B007F1A1E /* CatchAllMissingMethod.m in Sources */,
 				0B0F212524BDD165007F1A1E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestClsMissingMethod.h"
+
 
 @implementation ViewController
 
@@ -14,8 +16,14 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+
 }
 
+- (IBAction)btnAction:(id)sender {
+    id obj = [[TestClsMissingMethod alloc] init];
+    [obj length];
+    [NSClassFromString(@"TestClsMissingMethod") length];
+}
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
