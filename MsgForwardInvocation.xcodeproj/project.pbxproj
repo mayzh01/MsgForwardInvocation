@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0F212524BDD165007F1A1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F212424BDD165007F1A1E /* AppDelegate.m */; };
+		0B0F212824BDD165007F1A1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F212724BDD165007F1A1E /* ViewController.m */; };
+		0B0F212A24BDD169007F1A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F212924BDD169007F1A1E /* Assets.xcassets */; };
+		0B0F212D24BDD169007F1A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F212B24BDD169007F1A1E /* Main.storyboard */; };
+		0B0F213024BDD169007F1A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F212F24BDD169007F1A1E /* main.m */; };
+		0B0F213B24BDD169007F1A1E /* MsgForwardInvocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F213A24BDD169007F1A1E /* MsgForwardInvocationTests.m */; };
+		0B0F214624BDD169007F1A1E /* MsgForwardInvocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F214524BDD169007F1A1E /* MsgForwardInvocationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B0F213724BDD169007F1A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B0F211824BDD165007F1A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0F211F24BDD165007F1A1E;
+			remoteInfo = MsgForwardInvocation;
+		};
+		0B0F214224BDD169007F1A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B0F211824BDD165007F1A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0F211F24BDD165007F1A1E;
+			remoteInfo = MsgForwardInvocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0F212024BDD165007F1A1E /* MsgForwardInvocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsgForwardInvocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0F212324BDD165007F1A1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B0F212424BDD165007F1A1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B0F212624BDD165007F1A1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B0F212724BDD165007F1A1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B0F212924BDD169007F1A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B0F212C24BDD169007F1A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B0F212E24BDD169007F1A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0F212F24BDD169007F1A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B0F213124BDD169007F1A1E /* MsgForwardInvocation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MsgForwardInvocation.entitlements; sourceTree = "<group>"; };
+		0B0F213624BDD169007F1A1E /* MsgForwardInvocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MsgForwardInvocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0F213A24BDD169007F1A1E /* MsgForwardInvocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgForwardInvocationTests.m; sourceTree = "<group>"; };
+		0B0F213C24BDD169007F1A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0F214124BDD169007F1A1E /* MsgForwardInvocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MsgForwardInvocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0F214524BDD169007F1A1E /* MsgForwardInvocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgForwardInvocationUITests.m; sourceTree = "<group>"; };
+		0B0F214724BDD169007F1A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0F211D24BDD165007F1A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F213324BDD169007F1A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F213E24BDD169007F1A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0F211724BDD165007F1A1E = {
+			isa = PBXGroup;
+			children = (
+				0B0F212224BDD165007F1A1E /* MsgForwardInvocation */,
+				0B0F213924BDD169007F1A1E /* MsgForwardInvocationTests */,
+				0B0F214424BDD169007F1A1E /* MsgForwardInvocationUITests */,
+				0B0F212124BDD165007F1A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B0F212124BDD165007F1A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F212024BDD165007F1A1E /* MsgForwardInvocation.app */,
+				0B0F213624BDD169007F1A1E /* MsgForwardInvocationTests.xctest */,
+				0B0F214124BDD169007F1A1E /* MsgForwardInvocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B0F212224BDD165007F1A1E /* MsgForwardInvocation */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F212324BDD165007F1A1E /* AppDelegate.h */,
+				0B0F212424BDD165007F1A1E /* AppDelegate.m */,
+				0B0F212624BDD165007F1A1E /* ViewController.h */,
+				0B0F212724BDD165007F1A1E /* ViewController.m */,
+				0B0F212924BDD169007F1A1E /* Assets.xcassets */,
+				0B0F212B24BDD169007F1A1E /* Main.storyboard */,
+				0B0F212E24BDD169007F1A1E /* Info.plist */,
+				0B0F212F24BDD169007F1A1E /* main.m */,
+				0B0F213124BDD169007F1A1E /* MsgForwardInvocation.entitlements */,
+			);
+			path = MsgForwardInvocation;
+			sourceTree = "<group>";
+		};
+		0B0F213924BDD169007F1A1E /* MsgForwardInvocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F213A24BDD169007F1A1E /* MsgForwardInvocationTests.m */,
+				0B0F213C24BDD169007F1A1E /* Info.plist */,
+			);
+			path = MsgForwardInvocationTests;
+			sourceTree = "<group>";
+		};
+		0B0F214424BDD169007F1A1E /* MsgForwardInvocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F214524BDD169007F1A1E /* MsgForwardInvocationUITests.m */,
+				0B0F214724BDD169007F1A1E /* Info.plist */,
+			);
+			path = MsgForwardInvocationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B0F211F24BDD165007F1A1E /* MsgForwardInvocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0F214A24BDD169007F1A1E /* Build configuration list for PBXNativeTarget "MsgForwardInvocation" */;
+			buildPhases = (
+				0B0F211C24BDD165007F1A1E /* Sources */,
+				0B0F211D24BDD165007F1A1E /* Frameworks */,
+				0B0F211E24BDD165007F1A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MsgForwardInvocation;
+			productName = MsgForwardInvocation;
+			productReference = 0B0F212024BDD165007F1A1E /* MsgForwardInvocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B0F213524BDD169007F1A1E /* MsgForwardInvocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0F214D24BDD169007F1A1E /* Build configuration list for PBXNativeTarget "MsgForwardInvocationTests" */;
+			buildPhases = (
+				0B0F213224BDD169007F1A1E /* Sources */,
+				0B0F213324BDD169007F1A1E /* Frameworks */,
+				0B0F213424BDD169007F1A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B0F213824BDD169007F1A1E /* PBXTargetDependency */,
+			);
+			name = MsgForwardInvocationTests;
+			productName = MsgForwardInvocationTests;
+			productReference = 0B0F213624BDD169007F1A1E /* MsgForwardInvocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B0F214024BDD169007F1A1E /* MsgForwardInvocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0F215024BDD169007F1A1E /* Build configuration list for PBXNativeTarget "MsgForwardInvocationUITests" */;
+			buildPhases = (
+				0B0F213D24BDD169007F1A1E /* Sources */,
+				0B0F213E24BDD169007F1A1E /* Frameworks */,
+				0B0F213F24BDD169007F1A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B0F214324BDD169007F1A1E /* PBXTargetDependency */,
+			);
+			name = MsgForwardInvocationUITests;
+			productName = MsgForwardInvocationUITests;
+			productReference = 0B0F214124BDD169007F1A1E /* MsgForwardInvocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B0F211824BDD165007F1A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = My;
+				TargetAttributes = {
+					0B0F211F24BDD165007F1A1E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0B0F213524BDD169007F1A1E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0B0F211F24BDD165007F1A1E;
+					};
+					0B0F214024BDD169007F1A1E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0B0F211F24BDD165007F1A1E;
+					};
+				};
+			};
+			buildConfigurationList = 0B0F211B24BDD165007F1A1E /* Build configuration list for PBXProject "MsgForwardInvocation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B0F211724BDD165007F1A1E;
+			productRefGroup = 0B0F212124BDD165007F1A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B0F211F24BDD165007F1A1E /* MsgForwardInvocation */,
+				0B0F213524BDD169007F1A1E /* MsgForwardInvocationTests */,
+				0B0F214024BDD169007F1A1E /* MsgForwardInvocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B0F211E24BDD165007F1A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F212A24BDD169007F1A1E /* Assets.xcassets in Resources */,
+				0B0F212D24BDD169007F1A1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F213424BDD169007F1A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F213F24BDD169007F1A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B0F211C24BDD165007F1A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F212824BDD165007F1A1E /* ViewController.m in Sources */,
+				0B0F213024BDD169007F1A1E /* main.m in Sources */,
+				0B0F212524BDD165007F1A1E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F213224BDD169007F1A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F213B24BDD169007F1A1E /* MsgForwardInvocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0F213D24BDD169007F1A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F214624BDD169007F1A1E /* MsgForwardInvocationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B0F213824BDD169007F1A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0F211F24BDD165007F1A1E /* MsgForwardInvocation */;
+			targetProxy = 0B0F213724BDD169007F1A1E /* PBXContainerItemProxy */;
+		};
+		0B0F214324BDD169007F1A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0F211F24BDD165007F1A1E /* MsgForwardInvocation */;
+			targetProxy = 0B0F214224BDD169007F1A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B0F212B24BDD169007F1A1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0F212C24BDD169007F1A1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B0F214824BDD169007F1A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B0F214924BDD169007F1A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B0F214B24BDD169007F1A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MsgForwardInvocation/MsgForwardInvocation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MsgForwardInvocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = z.my.hi.bd.cn.MsgForwardInvocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B0F214C24BDD169007F1A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MsgForwardInvocation/MsgForwardInvocation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MsgForwardInvocation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = z.my.hi.bd.cn.MsgForwardInvocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B0F214E24BDD169007F1A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MsgForwardInvocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = z.my.hi.bd.cn.MsgForwardInvocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MsgForwardInvocation.app/Contents/MacOS/MsgForwardInvocation";
+			};
+			name = Debug;
+		};
+		0B0F214F24BDD169007F1A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MsgForwardInvocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = z.my.hi.bd.cn.MsgForwardInvocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MsgForwardInvocation.app/Contents/MacOS/MsgForwardInvocation";
+			};
+			name = Release;
+		};
+		0B0F215124BDD169007F1A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MsgForwardInvocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = z.my.hi.bd.cn.MsgForwardInvocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MsgForwardInvocation;
+			};
+			name = Debug;
+		};
+		0B0F215224BDD169007F1A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MsgForwardInvocationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = z.my.hi.bd.cn.MsgForwardInvocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MsgForwardInvocation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B0F211B24BDD165007F1A1E /* Build configuration list for PBXProject "MsgForwardInvocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0F214824BDD169007F1A1E /* Debug */,
+				0B0F214924BDD169007F1A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0F214A24BDD169007F1A1E /* Build configuration list for PBXNativeTarget "MsgForwardInvocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0F214B24BDD169007F1A1E /* Debug */,
+				0B0F214C24BDD169007F1A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0F214D24BDD169007F1A1E /* Build configuration list for PBXNativeTarget "MsgForwardInvocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0F214E24BDD169007F1A1E /* Debug */,
+				0B0F214F24BDD169007F1A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0F215024BDD169007F1A1E /* Build configuration list for PBXNativeTarget "MsgForwardInvocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0F215124BDD169007F1A1E /* Debug */,
+				0B0F215224BDD169007F1A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B0F211824BDD165007F1A1E /* Project object */;
+}
